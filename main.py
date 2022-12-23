@@ -8,7 +8,7 @@ import schedule
 from threading import Thread
 from time import sleep
 
-telegram_token = '5235499125:AAEIV0Xurji0IJTAnPUTWYx7u8z_sFtzb3U'
+telegram_token = '#################################'
 
 bot = telebot.TeleBot(telegram_token)
 
@@ -35,7 +35,7 @@ for button in add_keyboard:
 for button in delete_keyboard:
     delete_markup.add(types.KeyboardButton(button[0]))
 
-yand_token = 'y0_AgAAAAAhzfzwAAG8XgAAAADXeV_R4rx1X9cgSH67vBdksj5B7Ev_rI8'
+yand_token = '#####################################################'
 client = Client(yand_token).init()
 
 
